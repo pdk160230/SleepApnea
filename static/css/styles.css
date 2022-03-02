@@ -4,9 +4,9 @@ body {
 }
 
 .main {
-    background-color: #FFFFFF;
-    width: 400px;
-    height: 400px;
+    background-color: #fff8f8;
+    width: 500px;
+    height: 520px;
     margin: 7em auto;
     border-radius: 1.5em;
     box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
@@ -14,10 +14,12 @@ body {
 
 .sign {
     padding-top: 40px;
-    color: #8C55AA;
+    color: #603775;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
+    margin-left: 1px;
+    margin-right: 10px;
 }
 
 .un {
@@ -26,7 +28,7 @@ color: rgb(38, 50, 56);
 font-weight: 700;
 font-size: 14px;
 letter-spacing: 1px;
-background: rgba(136, 126, 126, 0.04);
+background: rgba(168, 122, 122, 0.04);
 padding: 10px 20px;
 border: none;
 border-radius: 20px;
@@ -34,7 +36,7 @@ outline: none;
 box-sizing: border-box;
 border: 2px solid rgba(0, 0, 0, 0.02);
 margin-bottom: 50px;
-margin-left: 46px;
+margin-left: 56px;
 text-align: center;
 margin-bottom: 27px;
 font-family: 'Ubuntu', sans-serif;
@@ -42,6 +44,17 @@ font-family: 'Ubuntu', sans-serif;
 
 form.form1 {
     padding-top: 40px;
+}
+
+.newuser {
+    padding-top: 10px;
+    color: #603775;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 200px;
+    width: 50%;
 }
 
 .pass {
@@ -58,7 +71,7 @@ outline: none;
 box-sizing: border-box;
 border: 2px solid rgba(0, 0, 0, 0.02);
 margin-bottom: 50px;
-margin-left: 46px;
+margin-left: 56px;
 text-align: center;
 margin-bottom: 27px;
 font-family: 'Ubuntu', sans-serif;
@@ -67,32 +80,53 @@ font-family: 'Ubuntu', sans-serif;
 
 .un:focus, .pass:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
-    
+}
+
+.entercode {
+    padding-top: 40px;
+    color: #603775;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 .submit {
   cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #9C27B0, #E040FB);
+    background: linear-gradient(to right, #7c6580, #cca4d3);
     border: 0;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 35%;
     font-size: 13px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.04);
+}
+
+.retrieve {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #98869b;
+    padding-top: 30px;
+    width: 50%;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-left: 80px;
+    padding-right: 40px;
 }
 
 .forgot {
     text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
     color: #E1BEE7;
-    padding-top: 15px;
+    padding-top: 30px;
     width: 50%;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.1rem;
+    margin-left: 35%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 a {
