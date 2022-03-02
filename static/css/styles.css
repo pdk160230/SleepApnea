@@ -1,5 +1,5 @@
 body {
-    background-color: #F3EBF6;
+    background-color: #f8a9a979;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .sign {
     padding-top: 40px;
-    color: #603775;
+    color: hsl(0, 70%, 31%);;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
@@ -48,7 +48,7 @@ form.form1 {
 
 .newuser {
     padding-top: 10px;
-    color: #603775;
+    color: hsl(0, 70%, 31%);;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -84,7 +84,7 @@ font-family: 'Ubuntu', sans-serif;
 
 .entercode {
     padding-top: 40px;
-    color: #603775;
+    color: #af5454;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
@@ -94,7 +94,7 @@ font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #7c6580, #cca4d3);
+    background: linear-gradient(to right, #cc2c2c52, #e91c1cbe);
     border: 0;
     padding-left: 40px;
     padding-right: 30px;
